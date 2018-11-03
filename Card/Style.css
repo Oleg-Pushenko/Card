@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+    background: url(img/bground.jpg) no-repeat;
+    background-size: 100%;
+}
+.card {
+    width: 100%;
+    max-width: 546px;
+    height: 595px;
+    display: block;
+    background-color: gray;
+    border-radius: 20px;
+	font-size: 28px;
+}
+ /* Фото имя и твит профиля */
+.profile {
+	margin: 0px;
+	width: 100%;
+    max-width: 546px;
+    height: 260px;
+	background-color: #35A3DC;
+	border-radius: 15px 15px 0px 0px;
+}
+.avatar {
+	width: 188px;
+	height: 188px;
+	border: 2px solid white;
+	border-radius: 50%;
+	padding: 15px;
+	margin: 37px 0px 0px 37px;
+}
+.bg-avatar {
+	width: 188px;
+	height: 188px;
+	border: 2px solid white;
+	border-radius: 50%;
+	padding: 15px;
+	margin: 37px 0px 0px -195px;
+}
+.bg-avatar:hover {
+	opacity: 0;
+}
+.user-name ,
+.last-name {
+	color: white;
+	font-weight: bold;
+	font-family: arial;
+	margin-left: 260px;
+}
+.last-name {
+	margin-top: -155px;
+}
+.twitter-login {
+	margin-left: 260px;
+	margin-top: 10px;
+}
+.twitter-href {
+	color: white;
+	text-decoration: none;
+	font-family: arial;
+}
+/* кнопки навигации */
+.nav {
+	display: flex;
+	margin-top: 77px;
+	width: 100%;
+    max-width: 546px;
+    height: 184px;
+	background-color: white;
+}
+.button-tweets,
+.button-following,
+.button-followers {
+	width: 152px;
+	height: 113px;
+	background-color: #F8F3F0;
+	margin-top: 35px;
+	text-decoration: none;
+	color: #8E887C;
+}
+.button-tweets {
+    margin-left: 40px;
+	border-radius: 10px 0px 0px 10px;
+}
+.button-following {
+	margin-left: 5px;
+}
+.button-followers {
+	margin-left: 5px;
+	border-radius: 0px 10px 10px 0px;
+}
+.number {
+	text-align: center;
+	font-weight: 600;
+	font-size: 30px;
+	margin-top: 30px;
+}
+.line {
+	text-align: center;
+	font-size: 18px;
+	margin-top: 5px;
+}
+/*  кнопка */
+.button {
+	width: 100%;
+    max-width: 546px;
+    height: 150px;
+	background-color: #F8F3F0;
+	border-radius: 0px 0px 15px 15px;
+}
+button {
+	width: 468px;
+	height: 75px;
+	border-radius: 20px;
+	margin: 40px;
+	color: white;
+	font-size: 29px;
+	background: linear-gradient(to top, #E8673F, #EC8262);
+}
+.twitter-icon {
+	width: 27px;
+	height: 27px;
+	margin-right: 30px;
+}
+
+
+
+
